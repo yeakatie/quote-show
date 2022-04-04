@@ -1,0 +1,39 @@
+/* Stylesheet */
+
+/* Import Google Font */
+@import url('https://fonts.googlen.com/css2?family=Quantico:wght@400;700&display=swap');
+
+body {  
+  /* Horizontal and Vertical Center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  /* Extend full height of browser  */
+  height: 100vh;
+  
+  /* Load Background Images with JS. Style with CSS */ 
+  background-size: cover;
+}
+
+/* Apply Font */
+main {
+  font-family: 'Quantico', sans-serif;
+  font-size: 5vmin;
+  text-align: center;
+  
+  /* Add contrast to text */
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+nav {
+  display: flex;
+  direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.random {
+  margin: 1vw;
+}
